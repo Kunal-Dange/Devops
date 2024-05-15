@@ -1,3 +1,5 @@
+'''This code will help to copy the members from github team to another'''
+
 import requests
 
 # Your GitHub access token
