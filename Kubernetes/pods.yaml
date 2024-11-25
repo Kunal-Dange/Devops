@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  lables: myapp
+
+spec:
+  containers:
+    - image: nginx
+      name: nginx container
+  replicas: 2
+    
+
+kubectle rollout undo deploment nam of deployment
+kubectl run podname --image=hgnix
